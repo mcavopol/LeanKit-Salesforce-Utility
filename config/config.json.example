@@ -1,0 +1,82 @@
+{
+  "salesforce": {
+    "login": "ssalestest@mail.ru",
+    "password": "aqq1sww2dee3",
+    "token": "JayOSEumrq2PCuhCTqmDHsSNh",
+    "instance": "https://eu6.salesforce.com/"
+  },
+  "leankit": {
+    "name": "jetcompany",
+    "email": "a1_zejet@mail.ru",
+    "password": "q1w2e3r4t5",
+    "boardId": "275562846",
+    "laneId": "275603052",
+    "opportunityCardTypeId": "275563052",
+    "statuses": {
+      "opportunity": {
+        "Prospecting": "275603052",
+        "Qualification": "285975981",
+        "Needs Analysis": "285975980",
+        "Value Proposition": "275603052",
+        "Id. Decision Makers": "285975981",
+        "Perception Analysis": "285975980",
+        "Proposal/Price Quote": "275603052",
+        "Negotiation/Review": "285975981",
+        "Closed Won": "285975980",
+        "Closed Lost": "275603052",
+        "__Status": "__Lane id"
+      }
+    },
+    "types": {
+      "opportunity": {
+        "--None--": "275563052",
+        "Existing Customer - Upgrade": "275563054",
+        "Existing Customer - Replacement": "275563053",
+        "Existing Customer - Downgrade": "275563055",
+        "New Customer": "275563056",
+        "__Opportunity": "__Type id"
+      }
+    }
+  },
+  "cron_pattern": "*/10 * * * * *",
+  "countPerRequest": 10,
+  "cardSettings": {
+    "externalSystemName": "Open in SalesForce"
+  },
+  "rules": {
+    "__Opportunity Owner": "__config data",
+    "ssalestest@testus.com": {
+      "__ Username = ssalestest@testus.com": "",
+      "boardId": "275562846",
+      "defaultLaneID": "275603052",
+      "opportunityCardTypeId": "275563052",
+      "statuses": {
+        "opportunity": {
+          "Prospecting": "275603052",
+          "Qualification": "285975981",
+          "Needs Analysis": "285975980",
+          "Value Proposition": "275603052",
+          "Id. Decision Makers": "285975981",
+          "Perception Analysis": "285975980",
+          "Proposal/Price Quote": "275603052",
+          "Negotiation/Review": "285975981",
+          "Closed Won": "285975980",
+          "Closed Lost": "275603052",
+          "__Status": "__Lane id"
+        }
+      },
+      "types": {
+        "opportunity": {
+          "--None--": "275563052",
+          "Existing Customer - Upgrade": "275563054",
+          "Existing Customer - Replacement": "275563053",
+          "Existing Customer - Downgrade": "275563055",
+          "New Customer": "275563056",
+          "__Opportunity": "__Type id"
+        }
+      }
+    }
+  },
+  "opportunityStartDate": "2016-01-11T13:57:09.000+0300",
+  "salesForceNumbers": {}
+}
